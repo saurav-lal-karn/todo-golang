@@ -21,7 +21,9 @@ THE SOFTWARE.
 */
 package main
 
-import "github.com/saurav-lal-karn/todo-golang/cmd"
+import (
+	"github.com/saurav-lal-karn/todo-golang/cmd"
+)
 
 func main() {
 	cmd.Execute()
